@@ -1,9 +1,9 @@
 import random
-import re
+#import re
 
 # random 4 digits
 answer = random.sample([0,1,2,3,4,5,6,7,8,9],4)
-#print(answer[0],answer[1],answer[2],answer[3])
+print(answer[0],answer[1],answer[2],answer[3])
 
 while True:
     input_v = input("Guess 4 number : ")
